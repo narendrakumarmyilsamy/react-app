@@ -13,7 +13,7 @@ function FunctionalComponentWithUseContext(props) {
             counter,
             handleClick
         }}>
-            <h1>This is functional component with State and Props</h1>
+            <h1>This is functional component with State and Props - First commit</h1>
             <button onClick={ () => setShowCounter(!showCounter) }>Show/Hide Counter</button>
             { showCounter && <ReadingFromContext /> }
         </StateContext.Provider>
